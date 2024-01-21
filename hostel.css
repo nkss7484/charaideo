@@ -135,7 +135,7 @@ nav ul li a::after{
 }
 
 .overlay{
-	background-color: rgba(0,0,0,.95);
+	/* background-color: rgba(0,0,0,.95); */
 	position: fixed;
 	right: 0;
 	left: 0;
@@ -416,7 +416,7 @@ nav ul li a:hover::after{
   color: #1e3250;
 }
 .aboutsection{
-  margin-bottom: 3rem;
+  /* margin-top: 3rem; */
   line-height: 3.5em;
   margin-bottom: 3rem;
   align-items: center;
@@ -463,6 +463,9 @@ nav ul li a:hover::after{
   .notificationsection{
     width: 90%;
     margin: auto;
+  }
+  .aboutsection{
+    margin-top: 3rem;
   }
   .thirdrow {
     position: relative;
