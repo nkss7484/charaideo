@@ -21,19 +21,11 @@
 	font-family: fangsong;
 
 }
-/* .nav2 a{
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1.6rem;
-} */
 .adminnav{
 	line-height: 5rem;
 	margin-bottom: 6rem;
 	margin-top: 3rem;
 	text-align: center;
-	/* border-bottom: 1px solid black; */
 	font-size: 2.2rem;
 	font-weight: 800;
 	font-family: fangsong;
@@ -43,7 +35,6 @@
 .adminnav a{
 	padding: 10px;
     border: 0px solid gray;
-	/* flex-wrap: wrap; */
 	margin-right: 1.5rem;
 	text-decoration: none;
 	color: white;
@@ -159,6 +150,7 @@ figure.effect-goliath {
     height: 40rem;
     border-radius: 30px;
 	background: rgb(238, 158, 158);
+	border: 1px solid black;
 }
 
 /* figure.effect-goliath img, */

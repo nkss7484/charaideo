@@ -16,20 +16,13 @@ a{
 
 header{
 	width: 100%;
-	/* height: 100%; */
   top: 0;
-	/* background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.5)); */
 	background-size: cover;
   color: #cccccc;
-  /* background-image: linear-gradient(rgba(0,0,0,0.6),
-                                   rgba(0,0,0,0.6)),
-                                      url(hostel.jpg); */
   background: #1e3250;
 	position: sticky;
   z-index: 100;
   overflow: hidden;
-  /* margin-top: 5px;
-  margin-bottom: 5px; */
 }
 .topheader{
   margin-top: 5px;
@@ -38,7 +31,7 @@ header{
 
 .topcontainer{
   flex-wrap: wrap;
-  max-width: 95rem;
+  max-width: 85rem;
   width: 95%;
   float: right;
   margin-top: -45px;
@@ -60,7 +53,7 @@ nav{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size: 1.6rem;
 }
 
@@ -135,7 +128,6 @@ nav ul li a::after{
 }
 
 .overlay{
-	/* background-color: rgba(0,0,0,.95); */
 	position: fixed;
 	right: 0;
 	left: 0;
@@ -150,7 +142,6 @@ nav ul li a::after{
   display: flex;
   align-items: center;
   margin-left: 10px;
-    /* margin-top: 5px; */
 }
 .hostelname{
   color: white;
@@ -221,23 +212,10 @@ nav ul li a:hover::after{
 .firstpage{
   background: #1e3250;
   display: flex;
-  /* margin-left: 10px;
-  margin-right: 10px; */
-  /* height: 50rem; */
-}
-.container{
-  /* margin-top: 10px;
-  width: 70%;
-  margin-left: 10px; */
-}
-.carousel-inner{
-  /* height: 80%; */
 }
 .toppage{
   margin: auto;
   padding: 10px;
-  /* width: 30%; */
-
 }
 .hostelflag img {
   width: 63vh;
@@ -299,7 +277,6 @@ nav ul li a:hover::after{
   .toppage{
     display: grid;
     align-items: center;
-    /* margin-left: 10px; */
     gap: 20px;
   }
   .about p{
@@ -353,12 +330,12 @@ nav ul li a:hover::after{
 
   .thirdrow{
     height: 650px;
-    /* background-image: linear-gradient(rgba(255,255,255,1.5),
+    background-image: linear-gradient(rgba(255,255,255,1.5),
                                      rgba(255,255,255,0.5)),
                                         url(caraousel1.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
-    background: white;
+    background-size: cover;
+    /* background: white; */
     
     display: flex;
     justify-content: space-around;
